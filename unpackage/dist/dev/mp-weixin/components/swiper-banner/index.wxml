@@ -1,1 +1,0 @@
-<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}"><block wx:for="{{homeSlide}}" wx:for-item="item" wx:for-index="index" wx:key="index"><swiper-item><image style="width:100%;height:100%;" src="{{item.image}}"></image></swiper-item></block></swiper>

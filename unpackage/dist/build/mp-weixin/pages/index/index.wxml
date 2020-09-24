@@ -1,1 +1,0 @@
-<view><view><my-swiper vue-id="8dd740cc-1" homeSlide="{{homeSlide}}" indicatorDots="{{indicatorDots}}" interval="{{interval}}" duration="{{duration}}" bind:__l="__l"></my-swiper></view><view style="margin-top:10rpx;"><scroll-banner vue-id="8dd740cc-2" scrollData="{{scrollData}}" bind:__l="__l"></scroll-banner></view></view>

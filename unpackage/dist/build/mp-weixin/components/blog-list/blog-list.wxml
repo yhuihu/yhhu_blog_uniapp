@@ -1,1 +1,0 @@
-<scroll-view scroll-y="true"><block wx:for="{{blogList}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view style=";"><navigator class="_a"></navigator></view></block></scroll-view>

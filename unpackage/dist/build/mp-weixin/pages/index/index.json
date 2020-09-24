@@ -1,6 +1,0 @@
-{
-  "usingComponents": {
-    "my-swiper": "/components/swiper-banner/index",
-    "scroll-banner": "/components/scroll-banner/index"
-  }
-}
