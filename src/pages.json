@@ -1,34 +1,40 @@
 {
-	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
-		{
-			"path": "pages/index/index"
-		}
-	,{
-			"path" : "components/blog-list/blog-list",
-			"style" : {}
-		}
-	,{
-			"path" : "pages/blog-detail/blog-detail",
-			"style" : {}
-		}
-	],
-	"tabBar": {
-		"list": [{
-			"text": "首页",
-			"pagePath": "pages/index/index",
-			"iconPath": "static/tabs/home.png",
-			"selectedIconPath": "static/tabs/home-active.png"
-		},{
-			"text": "关于作者",
-			"pagePath": "pages/blog-detail/blog-detail",
-			"iconPath": "static/tabs/author.png",
-			"selectedIconPath": "static/tabs/author-active.png"
-		}]
-	},
-	"globalStyle": {
-		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "Tiger's Blog",
-		"navigationBarBackgroundColor": "#F8F8F8",
-		"backgroundColor": "#F8F8F8"
-	}
+  "pages": [
+    //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+    {
+      "path": "pages/index/index",
+      "style": {
+        "enablePullDownRefresh": true
+        //首页页面下拉刷新
+      }
+    },
+    {
+      "path": "pages/blog-detail/index"
+    },
+    {
+      "path": "pages/about/index"
+    }
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/home.png",
+        "selectedIconPath": "static/tabs/home-active.png"
+      },
+      {
+        "text": "关于作者",
+        "pagePath": "pages/about/index",
+        "iconPath": "static/tabs/author.png",
+        "selectedIconPath": "static/tabs/author-active.png"
+      }
+    ]
+  },
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "Tiger's Blog",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  }
 }
